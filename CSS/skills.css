@@ -52,6 +52,7 @@ header nav ul li a:hover {
 #skills {
     padding: 40px 0;
     background: #f4f4f4;
+    text-align: center;
 }
 
 .skills-grid {
