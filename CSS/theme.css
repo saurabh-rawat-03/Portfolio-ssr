@@ -1,0 +1,141 @@
+/* styles.css */
+
+/* Light mode styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+header, nav, ul, li, a, section, footer {
+    background-color: transparent;
+    color: inherit;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#theme-toggle-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#theme-toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+.download-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode nav,
+body.dark-mode .container,
+body.dark-mode ul,
+body.dark-mode li,
+body.dark-mode a,
+body.dark-mode section,
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h5 {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+body.dark-mode header {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+
+body.dark-mode footer {
+    background-color: #1e1e1e;
+    border-top: 1px solid #333;
+}
+
+body.dark-mode a {
+    color: #80bfff;
+}
+
+body.dark-mode a:hover {
+    text-decoration: underline;
+}
+
+body.dark-mode #theme-toggle-btn {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+body.dark-mode #theme-toggle-btn:hover {
+    background-color: #222222;
+}
+
+body.dark-mode .download-btn {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+body.dark-mode .download-btn:hover {
+    background-color: #222222;
+}
